@@ -58,8 +58,7 @@ body{
 }
 
 .links a:hover{
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: lighter;
 }
 
 @media only screen and (min-width: 600px) {
