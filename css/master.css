@@ -28,14 +28,14 @@ body{
 
 .border1{
   padding-top: 10px;
-  border-bottom: 1px solid #3399ff;
+  border-bottom: 1px solid #004080;
   width: 50%
   float: right;
 }
 
 .border2{
   padding-top: 10px;
-  border-bottom: 1px solid #3399ff;
+  border-bottom: 1px solid #004080;
   width: 68%;
   float: right;
 }
