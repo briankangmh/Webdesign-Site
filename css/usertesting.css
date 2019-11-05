@@ -7,6 +7,7 @@
 body{
   background-image: linear-gradient(white, #ffcc99);
   height: 100vh;
+  font-family: Avenir;
 }
 
 .wrapper{
@@ -21,25 +22,29 @@ body{
 }
 
 .header h1{
-  font-family: Avenir;
   text-align: center;
   font-size: 30px;
 }
 
 .header a{
+  text-decoration: none;
+  color: #000;
+}
 
+.header a:hover{
+  color: gray;
 }
 
 .border1{
   padding-top: 10px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #3399ff;
   width: 50%
   float: right;
 }
 
 .border2{
   padding-top: 10px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #3399ff;
   width: 68%;
   float: right;
 }
@@ -47,23 +52,17 @@ body{
 .main{
   padding-top: 60px;
   padding-left: 10%;
-}
-
-.links li{
-  list-style: none;
-}
-
-.links a{
-  text-decoration: none;
-  font-family: avenir;
-  font-size: 18px;
+  padding-right: 10%;
+  max-width: 500px;
+  font-size: 15px;
   color: gray;
-  line-height: 25px;
+  line-height: 20px;
+  margin-bottom: 60px;
 }
 
-.links a:hover{
-  font-weight: lighter;
-  color: white;
+.main h2{
+  padding-bottom: 26px;
+  font-size: 20px
 }
 
 @media only screen and (min-width: 600px) {
