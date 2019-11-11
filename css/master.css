@@ -4,9 +4,9 @@
 
 }
 
-body{
-  background-image: linear-gradient(white, #ffcc99);
-  height: 100vh;
+html{
+  background-image: linear-gradient(#ffffff, #ffe0cc);
+  height: 100%;
 }
 
 .wrapper{
@@ -24,6 +24,7 @@ body{
   font-family: Avenir;
   text-align: center;
   font-size: 30px;
+  color: #4d4d4d;
 }
 
 .border1{
@@ -47,6 +48,8 @@ body{
 
 .links li{
   list-style: none;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
 
 .links a{
@@ -55,11 +58,13 @@ body{
   font-size: 18px;
   color: gray;
   line-height: 25px;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
 
 .links a:hover{
   font-weight: lighter;
-  color: white;
+  color: lightgray;
 }
 
 @media only screen and (min-width: 600px) {

@@ -5,10 +5,12 @@
 }
 
 /* global styling */
+html{
+  background-image: linear-gradient(#ffffff, #ffe0cc);
+  /* height: 100%; */
+}
 
 body{
-  background-image: linear-gradient(white, #ffcc99);
-  height: 100vh;
   font-family: Avenir;
 }
 
@@ -32,11 +34,13 @@ body{
 
 .header a{
   text-decoration: none;
-  color: #000;
+  color: #4d4d4d;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
 
 .header a:hover{
-  color: gray;
+  color: lightgray;
 }
 
 .border1{
@@ -126,5 +130,6 @@ body{
   /* .main{
     max-width: 400px;
   } */
-
-}
+  footer{
+    height: 150px;
+  }
