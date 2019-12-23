@@ -4,8 +4,7 @@
 }
 
 html{
-  background-image: linear-gradient(#ffffff, #ffe0cc);
-  height: 100%;
+
 }
 
 /* animations */
@@ -21,6 +20,8 @@ html{
 /* global styles */
 body{
   font-family: Avenir;
+  background-image: linear-gradient(#ffffff, #ffe0cc);
+  /* height: 100%; */
 }
 
 .container{
